@@ -6,7 +6,7 @@ const Footer =()=>{
         <>
           <footer>
             <section>
-                <div  className='flexi'>
+                <div  className='flex'>
                           <div>
                             <h1> Contact</h1>
                             <p>

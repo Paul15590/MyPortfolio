@@ -121,10 +121,10 @@ footer{
   width: 80%;
   margin: 0px auto;
   }
-  div.flexi{
+  div.flex{
     justify-content: space-between;
     >div{
-      width: 50%;
+      width: 100%;
       max-width: 350px;
       h1{
         font-size: 50px;
@@ -184,7 +184,7 @@ footer{
     div.lang{
 
       div{
-        width:46%;
+        width:50%;
       }
     }
    }
@@ -213,6 +213,11 @@ footer{
       }
       h1,p,h4{
         text-align: center;
+      }
+      div.lang{
+        div{
+          width: 90%;
+        }
       }
     }
 

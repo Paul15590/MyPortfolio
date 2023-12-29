@@ -29,7 +29,7 @@ const Header =()=>{
                             Nice to meet you! I'm   <span>Oluwsegun Paul</span>
                         </h1>
                         <p>
-                            Based in the UK,i'm a front-end developer passinate about building assesible web apps that user loves.
+                            Based in Nigeria,i'm a front-end developer passinate about building assesible web apps that user loves.
                         </p>
                         <h4>CONTACT ME </h4>
                     </div>
@@ -43,27 +43,27 @@ const Header =()=>{
                 <div className='lang flex'>
                     <div>
                         <h1>HTML </h1>
-                        <p>1 years experience</p>
+                        <p>1 year experience</p>
                     </div>
                     <div>
                         <h1> CSS</h1>
-                        <p>1 years experience</p>
+                        <p>1 year experience</p>
                     </div>
                     <div>
                         <h1>Javascript </h1>
-                        <p>1 years experience</p>
+                        <p>1 year experience</p>
                     </div>
                     <div>
                         <h1> Accessibility</h1>
-                        <p>1 years experience</p>
+                        <p>1 year experience</p>
                     </div>
                     <div>
                         <h1> React</h1>
-                        <p>1 years experience</p>
+                        <p>1 year experience</p>
                     </div>
                     <div>
                         <h1>Sass </h1>
-                        <p>1 years experience</p>
+                        <p>1 year experience</p>
                     </div>
                 </div>
           </header>
