@@ -1,10 +1,12 @@
 import gitHubImg from '../component/asset/github.svg';
 import twitterImg from '../component/asset/twitter.svg'
 import linkedinImg from '../component/asset/linkedln.svg';
+import whatsappImg from '../component/asset/whatsapp.svg'
+
 const Footer =()=>{
     return(
         <>
-          <footer>
+          <footer id='footer'>
             <section>
                 <div  className='flex'>
                           <div>
@@ -37,7 +39,9 @@ const Footer =()=>{
                         <a href="https://www.linkedin.com/in/oluwasegun-paul-b688b0287/">
                             <img src={linkedinImg} alt="" />
                         </a>
-                       
+                        <a href="https//wa.me/+2348131132541">
+                            <img src={whatsappImg} alt="" />
+                        </a>
                     
                     </div>
             </div>

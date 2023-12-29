@@ -10,7 +10,7 @@ const Main =()=> {
             <main>
                 <div className='flex'>
                     <h1>Projects</h1>
-                    <h4>CONTACT ME</h4>
+                    <h4> <a href="#footer"> CONTACT ME </a></h4>
                 </div>
 
                 <article className='flex'>

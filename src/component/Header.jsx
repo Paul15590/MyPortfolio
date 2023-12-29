@@ -2,6 +2,7 @@ import photo from '../component/asset/Image from iOS.jpg';
 import gitHubImg from '../component/asset/github.svg';
 import twitterImg from '../component/asset/twitter.svg'
 import linkedinImg from '../component/asset/linkedln.svg';
+import whatsappImg from '../component/asset/whatsapp.svg'
 const Header =()=>{
     return(
         <>
@@ -20,6 +21,9 @@ const Header =()=>{
                         <a href="https://www.linkedin.com/in/oluwasegun-paul-b688b0287/">
                             <img src={linkedinImg} alt="" />
                         </a>
+                        <a href="https//wa.me/08131132541">
+                            <img src={whatsappImg} alt="" />
+                        </a>
                        
                     </div>
                 </nav>
@@ -31,7 +35,7 @@ const Header =()=>{
                         <p>
                             Based in Nigeria,i'm a front-end developer passinate about building assesible web apps that user loves.
                         </p>
-                        <h4>CONTACT ME </h4>
+                        <h4> <a href="#footer"> CONTACT ME</a> </h4>
                     </div>
                     <div>
                         <img id='paul' src={photo} alt="" />
