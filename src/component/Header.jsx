@@ -21,7 +21,7 @@ const Header =()=>{
                         <a href="https://www.linkedin.com/in/oluwasegun-paul-b688b0287/">
                             <img src={linkedinImg} alt="" />
                         </a>
-                        <a href="https//wa.me/08131132541">
+                        <a href="https://wa.me/08131132541">
                             <img src={whatsappImg} alt="" />
                         </a>
                        
