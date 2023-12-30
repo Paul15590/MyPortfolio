@@ -191,6 +191,11 @@ footer{
 
    header{
       width: 90%;
+      .first-div{
+        h1{
+          font-size: 40px;
+          }}
+
     div.lang{
 
       div{
@@ -222,6 +227,12 @@ footer{
 
 @media screen and (max-width:650px) {
     header{
+      .first-div{
+        h1{
+          font-size: 30px;
+          text-align: center;
+        }
+      }
       .flex{
         flex-direction: column;
         align-items: center;
@@ -252,6 +263,10 @@ footer{
         div.flex{
           flex-direction: column;
           align-items: center;
+
+          form{
+            width: 100%;
+          }
         }
        
       }
