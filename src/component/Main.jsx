@@ -14,12 +14,36 @@ const Main =()=> {
                 </div>
 
                 <article className='flex'>
-                    <div>
+                <div>
                         <a href="https://room-homepage-indol-six.vercel.app/">
                              <img src={projectImg} alt="" />
                         </a>
                        
                         <h1> ROOM HOMEPAGE</h1>
+                        <div className='flexi'>
+                            <p> HTML</p>
+                            <p>SCSS</p>
+                            <p>REACT</p>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="https://e-commerce-beta-lyart.vercel.app/">
+                            <img src={projectImg4} alt="" />
+                        </a>
+                        
+                        <h1> E-COMMERCE LANDING-PAGE</h1>
+                        <div className='flexi'>
+                            <p> HTML</p>
+                            <p>SCSS</p>
+                            <p>REACT</p>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="https://huddle-landing-page-sigma-ruby.vercel.app/">
+                            <img src={projectImg3} alt="" />
+                        </a>
+                        
+                        <h1> HUDDLE-LANDING PAGE</h1>
                         <div className='flexi'>
                             <p> HTML</p>
                             <p>CSS</p>
@@ -34,32 +58,10 @@ const Main =()=> {
                         <div className='flexi'>
                             <p> HTML</p>
                             <p>CSS</p>
-                        </div>
-                    </div>
-                    <div>
-                        <a href="https://huddle-landing-page-sigma-ruby.vercel.app/">
-                            <img src={projectImg3} alt="" />
-                        </a>
-                        
-                        <h1> HUDDLE-LANDING PAGE</h1>
-                        <div className='flexi'>
-                            <p> HTML</p>
-                            <p>CSS</p>
                             <p>JAVASCRIPT</p>
                         </div>
                     </div>
-                    <div>
-                        <a href="https://e-commerce-beta-lyart.vercel.app/">
-                            <img src={projectImg4} alt="" />
-                        </a>
-                        
-                        <h1> E-COMMERCE LANDING-PAGE</h1>
-                        <div className='flexi'>
-                            <p> HTML</p>
-                            <p>CSS</p>
-                            <p>JAVASCRIPT</p>
-                        </div>
-                    </div>
+                    
                     <div>
                         <a href="https://paul-news-home-page.vercel.app/">
                              <img src={projectImg5} alt="" />

@@ -8,7 +8,7 @@ const Footer =()=>{
         <>
           <footer id='footer'>
             <section>
-                <div  className='flex'>
+                <div  className='flex' id='flex'>
                           <div>
                             <h1> Contact</h1>
                             <p>

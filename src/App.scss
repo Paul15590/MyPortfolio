@@ -130,6 +130,10 @@ footer{
     
   width: 80%;
   margin: 0px auto;
+
+  // div:last-child{
+  //   width: 100%;
+  // }
   }
   div.flex{
     justify-content: space-between;
@@ -192,12 +196,13 @@ footer{
    header{
       width: 90%;
       .first-div{
+        width: 100%;
         h1{
           font-size: 40px;
           }}
 
     div.lang{
-
+        // width: 100%;
       div{
         width:50%;
       }
@@ -208,7 +213,7 @@ footer{
     width: 90%;
     >div{
       h1{
-        font-size: 40px;
+        font-size: 32px;
       }
     }
     
@@ -217,9 +222,15 @@ footer{
    footer{
     width: 100%;
 
-    div.flexi{
+    div#flex{
       flex-direction: column;
       align-items: center;
+    
+    }
+    form{
+      margin-top: 30px;
+      align-items: center;
+      width: 80%;
     }
    }
 }
@@ -244,6 +255,9 @@ footer{
       div.lang{
         div{
           width: 90%;
+        }
+        h1{
+          font-size: 30px;
         }
       }
     }
