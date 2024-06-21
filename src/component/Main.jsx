@@ -1,9 +1,9 @@
 import projectImg from '../component/asset/desktop-preview (4).jpg'
 import projectImg2 from '../component/asset/active-states (2).jpg'
 import projectImg3 from '../component/asset/active-states (3).jpg'
-import projectImg4 from '../component/asset/active-state (4).jpg'
 import projectImg5 from '../component/asset/desktop-design.jpg'
 import projectImg6 from '../component/asset/desktop-preview.jpg'
+import projectImg7 from "../component/asset/homepage.jpeg"
 const Main =()=> {
     return(
         <>
@@ -16,7 +16,7 @@ const Main =()=> {
                 <article className='flex'>
                 <div>
                         <a href="https://room-homepage-indol-six.vercel.app/">
-                             <img src={projectImg} alt="" />
+                             <img src={projectImg}  alt="" />
                         </a>
                        
                         <h1> ROOM HOMEPAGE</h1>
@@ -28,7 +28,7 @@ const Main =()=> {
                     </div>
                     <div>
                         <a href="https://e-commerce-beta-lyart.vercel.app/">
-                            <img src={projectImg4} alt="" />
+                            <img src={projectImg7} alt=""  />
                         </a>
                         
                         <h1> E-COMMERCE LANDING-PAGE</h1>

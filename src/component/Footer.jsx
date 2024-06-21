@@ -25,7 +25,7 @@ const Footer =()=>{
             
             <hr />
             <div className='flex'>
-            <h1>Oluwasegun</h1>
+            <h1> <a href="/">Oluwasegun </a></h1>
                     <div>
                     
                         <a href="https://github.com/Paul15590">

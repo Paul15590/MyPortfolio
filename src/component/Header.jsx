@@ -1,4 +1,4 @@
-import photo from '../component/asset/Image from iOS.jpg';
+import photo from '../component/asset/Image_from_iOS-removebg-preview2.png';
 import gitHubImg from '../component/asset/github.svg';
 import twitterImg from '../component/asset/twitter.svg'
 import linkedinImg from '../component/asset/linkedln.svg';
@@ -8,7 +8,7 @@ const Header =()=>{
         <>
           <header>
                 <nav className='flex'>
-                    <h1>Oluwasegun</h1>
+                     <a href="/"><h1>Oluwasegun</h1></a>
                     <div>
                         <a href="https://github.com/Paul15590">
                         <img src={gitHubImg} alt="" />
@@ -37,7 +37,7 @@ const Header =()=>{
                         </p>
                         <h4> <a href="#footer"> CONTACT ME</a> </h4>
                     </div>
-                    <div>
+                    <div className='myImage'>
                         <img id='paul' src={photo} alt="" />
                     </div>
                 </div>
