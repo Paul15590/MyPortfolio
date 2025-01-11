@@ -1,9 +1,23 @@
 import gitHubImg from '../component/asset/github.svg';
 import twitterImg from '../component/asset/twitter.svg'
 import linkedinImg from '../component/asset/linkedln.svg';
-import whatsappImg from '../component/asset/whatsapp.svg'
+import whatsappImg from '../component/asset/whatsapp.svg';
+import { useForm } from '@formspree/react';
+import React from 'react';
 
 const Footer =()=>{
+    const [state, handlesubmit] = useForm("xeoovlaq");
+    const formRef = React.createRef();
+
+    const handleSubmit = (e) => {
+        console.log("Form submitted!");
+        handlesubmit(e);
+        formRef.current.reset();
+      
+    }
+    if (state.succeeded){
+        console.log("Your form is submitted sucessfully")
+    }
     return(
         <>
           <footer id='footer'>
@@ -15,11 +29,11 @@ const Footer =()=>{
                                 I would love to hear about your project and how i could help.Please fill in the form,and i'll get back to you as soon as possilble.
                             </p>
                             </div>
-                            <form>
-                                <input type="text" placeholder="NAME"/>
-                                <input type="email" placeholder="EMAIL" />
-                                <textarea name="" id="" cols="30" rows="7"></textarea>
-                                <button>SEND MESSAGE</button>
+                            <form ref={formRef} onSubmit={handleSubmit}>
+                                <input type="text" name="name" placeholder="NAME"/>
+                                <input type="email" name="email" placeholder="EMAIL" />
+                                <textarea name="message" id="" cols="30" rows="7"></textarea>
+                                <button type='submit' disabled={state.submitting}>SEND MESSAGE</button>
                             </form>
             </div>
             
